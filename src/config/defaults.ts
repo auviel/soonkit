@@ -1,0 +1,41 @@
+import type { SoonConfig } from './types'
+
+export const defaults: SoonConfig = {
+  brand: {
+    name: 'Soonkit',
+    logo: '',
+    homeUrl: '/',
+  },
+  copy: {
+    eyebrow: 'Launching soon',
+    headline: 'We are going dark',
+    subhead: 'And you are going to love it.',
+    emailLabel: 'Ideas or need us?',
+    email: 'hello@example.com',
+    liveMessage: 'We’re live —',
+    liveCta: 'enter the site',
+    liveHref: '/',
+  },
+  launchAt: '2026-09-21T12:00:00-04:00',
+  showCountdown: true,
+  showEmail: true,
+  editor: true,
+  seo: {
+    title: 'Coming soon',
+    description: 'Something new is on the way.',
+  },
+  theme: {
+    canvas: '#07080a',
+    canvasElevated: '#101218',
+    ink: '#f4f1ea',
+    mute: '#8b8f98',
+    stroke: '#1c1f27',
+    signal: '#5eead4',
+    accent: '#6b5cad',
+  },
+  fonts: {
+    display: 'Space Grotesk',
+    sans: 'DM Sans',
+    mono: 'DM Mono',
+  },
+}
