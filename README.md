@@ -22,7 +22,7 @@ Agents in this repo read `AGENTS.md` automatically. Prompt pack: [`prompts/`](pr
 ## Quick start
 
 ```bash
-git clone https://github.com/thevalentinedev/soonkit.git
+git clone https://github.com/auviel/soonkit.git
 cd soonkit
 npm install
 npm run dev

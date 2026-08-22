@@ -8,7 +8,7 @@ This file is for language models. Prefer it over scraping the README.
 
 Soonkit is a static Vite + React site. Users brand it by editing `public/soon.config.json` or by using the on-page Customize panel. There is no backend.
 
-Repo: https://github.com/thevalentinedev/soonkit
+Repo: https://github.com/auviel/soonkit
 License: MIT
 
 ## Agent rules

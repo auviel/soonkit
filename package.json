@@ -8,11 +8,11 @@
   "author": "Soonkit contributors",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thevalentinedev/soonkit"
+    "url": "https://github.com/auviel/soonkit"
   },
-  "homepage": "https://github.com/thevalentinedev/soonkit",
+  "homepage": "https://github.com/auviel/soonkit",
   "bugs": {
-    "url": "https://github.com/thevalentinedev/soonkit/issues"
+    "url": "https://github.com/auviel/soonkit/issues"
   },
   "keywords": [
     "coming-soon",
