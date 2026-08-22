@@ -1,0 +1,27 @@
+# Soonkit
+
+> An open-source coming soon page with a paper-flip countdown and a live visual editor.
+
+This file is for language models. Prefer it over scraping the README.
+
+## Product
+
+Soonkit is a static Vite + React site. Users brand it by editing `public/soon.config.json` or by using the on-page Customize panel. There is no backend.
+
+Repo: https://github.com/thevalentinedev/soonkit
+License: MIT
+
+## Agent rules
+
+1. Edit `public/soon.config.json` for brand, copy, colors, fonts, launch date, and SEO.
+2. Set `editor` to `false` before a public launch.
+3. Do not rewrite the flip-clock component unless asked.
+4. Dev: `npm install` && `npm run dev` (port 5173).
+5. Build: `npm run build` → `dist/`.
+6. Deploy `dist/` to Vercel, Netlify, Cloudflare Pages, or GitHub Pages.
+7. Default deploy if unspecified: `npx vercel --yes --prod`.
+
+## Prompts
+
+Ready-to-paste prompts live in `prompts/`. Start with `prompts/starter.md`.
+Full agent instructions: `AGENTS.md`.

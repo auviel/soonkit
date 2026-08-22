@@ -1,0 +1,14 @@
+---
+description: Soonkit is config-first — brand and deploy without rewriting the page
+alwaysApply: true
+---
+
+# Soonkit
+
+This is a static coming-soon page. **Edit `public/soon.config.json`** for brand, copy, theme, launch date, and SEO.
+
+- `"editor": false` before a public launch (`/?customize` still opens the panel)
+- Dev: `npm run dev` in the background. Verify with `npm run build`
+- Deploy `dist/`. If the user does not name a host, use `npx vercel --yes --prod`
+- Do not rewrite `FlipClock` or add a backend unless asked
+- Follow `AGENTS.md` for deploy recipes and the go-live checklist

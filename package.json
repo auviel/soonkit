@@ -20,7 +20,9 @@
     "landing-page",
     "vite",
     "react",
-    "open-source"
+    "open-source",
+    "llms.txt",
+    "agents.md"
   ],
   "scripts": {
     "dev": "vite",

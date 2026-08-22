@@ -6,6 +6,19 @@ Click **Customize** on the page, restyle everything in the browser, then downloa
 
 Originally designed for [Auviel](https://www.auviel.com).
 
+## Use with AI
+
+Open this repo in Cursor, Claude Code, Copilot, or ChatGPT and paste [prompts/starter.md](prompts/starter.md):
+
+```
+Brand this coming soon page for [Company].
+Headline: …
+Launch: …
+Then deploy to Vercel.
+```
+
+Agents in this repo read `AGENTS.md` automatically. Prompt pack: [`prompts/`](prompts/). Machine-readable: [`llms.txt`](llms.txt).
+
 ## Quick start
 
 ```bash
@@ -59,7 +72,7 @@ Edit `public/soon.config.json` directly. That file is read at runtime, so you ca
 
 ## Deploy
 
-`npm run build` outputs static files in `dist/`. Drop that folder on any static host:
+`npm run build` outputs static files in `dist/`. Drop that folder on any static host — or ask an agent using [prompts/deploy.md](prompts/deploy.md):
 
 - [Vercel](https://vercel.com)
 - [Netlify](https://netlify.com)
