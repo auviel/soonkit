@@ -27,7 +27,10 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "audit": "npm audit --omit=dev --audit-level=high",
+    "prepush": "npm run build && npm run audit",
+    "prepare": "git config core.hooksPath .githooks || true"
   },
   "engines": {
     "node": ">=20"
